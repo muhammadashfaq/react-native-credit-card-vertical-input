@@ -74,7 +74,7 @@ export default class CreditCardInput extends Component {
     labels: {
       name: "NOM DU TITULAIRE DE LA CARTE",
       number: "NUMÉRO DE CARTE",
-      expiry: "EXPIRATION",
+      expiry: "EXPIRY",
       cvc: "CVC/CCV",
       postalCode: "CODE POSTAL",
     },
