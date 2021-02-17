@@ -185,7 +185,7 @@ export default class CardView extends Component {
                 focused === "expiry" && s.focused,
               ]}
             >
-              MONTH/YEAR
+              Mois/Année
             </Text>
             <Text
               style={[
