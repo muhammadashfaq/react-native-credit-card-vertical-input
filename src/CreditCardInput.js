@@ -74,14 +74,14 @@ const POSTAL_CODE_INPUT_WIDTH = 120; // https://github.com/yannickcr/eslint-plug
   static defaultProps = {
     cardViewSize: {},
     labels: {
-      name: "NOM DU TITULAIRE DE LA CARTE",
-      number: "NUMÉRO DE CARTE",
-      expiry: "EXP",
-      cvc: "CVC",
-      postalCode: "CODE POSTAL",
+      name: "CARDHOLDER'S NAME",
+      number: "CARD NUMBER",
+      expiry: "EXPIRY",
+      cvc: "CVC/CCV",
+      postalCode: "POSTAL CODE",
     },
     placeholders: {
-      name: "Nom complet",
+      name: "Full Name",
       number: "1234 5678 1234 5678",
       expiry: "MM/YY",
       cvc: "CVC",
