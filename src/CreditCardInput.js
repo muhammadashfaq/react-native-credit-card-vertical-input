@@ -199,10 +199,11 @@ const POSTAL_CODE_INPUT_WIDTH = 120; // https://github.com/yannickcr/eslint-plug
         />
         <ScrollView
           ref="Form"
-          horizontal
+          horizontal={false}
           keyboardShouldPersistTaps="always"
           scrollEnabled={allowScroll}
           showsHorizontalScrollIndicator={false}
+          showsVerticalScrollIndicator={false}
           style={s.form}
         >
           <CCInput
