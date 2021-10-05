@@ -98,11 +98,10 @@ export default class CardView extends Component {
     name: "",
     placeholder: {
       number: "•••• •••• •••• ••••",
-      name: "Nom complet",
+      name: "FULL NAME",
       expiry: "••/••",
       cvc: "•••",
     },
-
     scale: 1,
     fontFamily: Platform.select({ ios: "Courier", android: "monospace" }),
     imageFront: require("../images/card-front.png"),
