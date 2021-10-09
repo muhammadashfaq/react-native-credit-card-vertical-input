@@ -23,7 +23,7 @@ const s = StyleSheet.create({
     marginTop: 20,
   },
   inputContainer: {
-    marginLeft: 20,
+    //  marginLeft: 20,
   },
   inputLabel: {
     fontWeight: "bold",
