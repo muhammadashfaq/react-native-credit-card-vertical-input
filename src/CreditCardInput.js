@@ -23,7 +23,7 @@ const s = StyleSheet.create({
     marginTop: 20,
   },
   inputContainer: {
-    //  marginLeft: 20,
+    marginRight: 3,
   },
   inputLabel: {
     fontWeight: "bold",
@@ -33,9 +33,9 @@ const s = StyleSheet.create({
   },
 });
 
-const CVC_INPUT_WIDTH = 70;
+const CVC_INPUT_WIDTH = 60;
 const EXPIRY_INPUT_WIDTH = CVC_INPUT_WIDTH;
-const CARD_NUMBER_INPUT_WIDTH_OFFSET = 40;
+const CARD_NUMBER_INPUT_WIDTH_OFFSET = 13;
 const CARD_NUMBER_INPUT_WIDTH =
   Dimensions.get("window").width -
   EXPIRY_INPUT_WIDTH -
@@ -212,7 +212,7 @@ const POSTAL_CODE_INPUT_WIDTH = 120; // https://github.com/yannickcr/eslint-plug
             containerStyle={[
               s.inputContainer,
               inputContainerStyle,
-              { width: CARD_NUMBER_INPUT_WIDTH },
+              // { width: CARD_NUMBER_INPUT_WIDTH },
             ]}
           />
           <CCInput
@@ -221,7 +221,7 @@ const POSTAL_CODE_INPUT_WIDTH = 120; // https://github.com/yannickcr/eslint-plug
             containerStyle={[
               s.inputContainer,
               inputContainerStyle,
-              { width: EXPIRY_INPUT_WIDTH },
+              //{ width: EXPIRY_INPUT_WIDTH },
             ]}
           />
           {requiresCVC && (
@@ -231,7 +231,7 @@ const POSTAL_CODE_INPUT_WIDTH = 120; // https://github.com/yannickcr/eslint-plug
               containerStyle={[
                 s.inputContainer,
                 inputContainerStyle,
-                { width: CVC_INPUT_WIDTH },
+                //  { width: CVC_INPUT_WIDTH },
               ]}
             />
           )}
